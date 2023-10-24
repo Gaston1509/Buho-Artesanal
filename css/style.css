@@ -6,8 +6,9 @@
 }
 
 /* color primario #58c592fd */
+/* color fuente #615050 */
 /* fuente banner:   font-family: 'Young Serif', serif;*/
-/* fuente body:  */
+/* fuente quienes somos: font-family: 'Roboto', sans-serif; */
 
 body{
     background-color: rgb(245, 245, 245);
@@ -54,6 +55,7 @@ body{
     font-size: clamp(1.5em, 6vw, 6rem);
     padding-top: clamp(3em, 20vw, 9em);
     padding-left: .5rem; 
+    
 }
 
 .container-grid__hr{
@@ -64,55 +66,49 @@ body{
 
 /*-------- Cuerpo Principal------------ -*/
 
-.somos__grid{
+.grid__container{
     display: grid;
-    gap: 1rem;
-    width: 95%;
-    margin: auto;
-    grid-auto-rows: auto;
-    grid-template-columns: repeat(auto-fit, minmax(26rem, 2fr));
-   
-   
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
-.somos__grid .somos__item{
-   justify-self: center;
-   
-}
-.somos__item{
-    min-height: 70vh;
-    min-width: 90%;
-    /* align-items: center; */
-    padding-top: 30px;
-}
-.somos__img{
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 10px;
-    border-radius: 70px;   
-}
-
-.somos__grid .somos__item .somos__img{
+.grid__item{
     justify-self: center;
-    max-height: 65%;
-    max-width: 50%;
-    margin-top: 2rem;
-    box-shadow: 10px 10px 17px 4px rgba(0, 0, 0, 0.808);
+    align-items: center;
+    margin: 20px;
+    margin-top: 30px;
 }
-.somos__p{
+.grid__img{
+    height: 347px;
+    width: 260px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 11px 10px 7px 0px rgba(0,0,0,0.4)
+}
+.grid__title{
     text-align: center;
-     padding-top: 30px;
-     padding-left: 50px;
-     padding-right: 50px;
-     
-
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #615050;
 }
+.grid__p{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #615050;
+}
+
+
 /*--------- Footer----------- */
 .container-footer {
     background-color: #58c592fd;
     height: 70px;
     justify-content: center;
     align-items: center;
+   
    
 }
 .container-footer a{
@@ -124,12 +120,23 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------media queries----------- */
-@media screen and (max-width: 550px){
-    .somos__grid .somos__item .somos__img{
-        max-height: 55%;
-        max-width: 70%;
-       
-    }
-    
-}
