@@ -112,6 +112,26 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #615050;
 }
+/* ---------------Galeria Grid---------- */
+
+.galeria-grid{
+    display: grid;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    gap: 1rem;
+}
+
+.galeria-grid .galeria__item img{
+    width: 100%;    
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    /* object-fit: fill; */
+}
 
 
 /*--------- Footer----------- */
