@@ -143,6 +143,16 @@ body{
     
 }
 
+.item__viajero{
+    font-family: 'Young Serif', serif;
+    font-size: clamp(2em, 4vw, 4rem);
+    /* padding-top: clamp(3em, 5vw, 9em); */
+    padding-left: .5rem; 
+    text-align: center;
+    color: #615050;
+    margin-top: 2rem;
+}
+
 
 /*--------- Footer----------- */
 .container-footer {
