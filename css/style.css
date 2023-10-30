@@ -116,21 +116,21 @@ body{
 
 .galeria-grid{
     display: grid;
-    width: 95%;
+    width: 90%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     grid-auto-rows: auto;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    gap: 1rem;
+    gap: 2.2rem;
 }
 
-/* .galeria__item{
-    width: 360px;
-    height: 400px;
+.galeria__item{
+    width: 330px;
+    height: 380px;
     margin: auto;
   
-} */
+}
 
 .galeria-grid .galeria__item img{
     width: 100%;    
@@ -139,6 +139,7 @@ body{
     object-fit: cover;
     /* object-fit: fill; */
     overflow: hidden;
+    border-radius: 10px;
     
 }
 
@@ -190,5 +191,8 @@ body{
     .grid__p{
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .galeria-grid{
+        gap: 1rem;
     }
 }
