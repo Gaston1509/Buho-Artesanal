@@ -63,6 +63,17 @@ body{
     border: 5px solid #1fb870fd; 
 }
 
+/* --------------fixed---------- */
+.bg__fijo{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../aseets/img/fondorubia.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 
 /*-------- Cuerpo Principal------------ -*/
 
@@ -122,13 +133,13 @@ body{
     margin-bottom: 20px;
     grid-auto-rows: auto;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    gap: 2.2rem;
+    gap: 1rem;
 }
 
 .galeria__item{
-    width: 330px;
+    /* width: 330px;
     height: 380px;
-    margin: auto;
+    margin: auto; */
   
 }
 
