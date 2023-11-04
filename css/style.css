@@ -7,6 +7,8 @@
 
 /* color primario #58c592fd */
 /* color fuente #615050 */
+/* color btn variedad #464b48fd */
+/* color btn variedad perro #f0ce0ffd */
 /* fuente banner:   font-family: 'Young Serif', serif;*/
 /* fuente quienes somos: font-family: 'Roboto', sans-serif; */
 
@@ -163,7 +165,7 @@ body{
     color: #615050;
     margin-top: 2rem;
 }
-/* Modal Variedad */
+/*------------ Modal Variedad ---------------*/
 .modal_variedad{
     display: grid;
     min-height: 100vh;
@@ -173,10 +175,11 @@ body{
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     align-items: center;
     gap: 10px;
-    background-image: url("../aseets/img/tresbirras.png");
+    background-image: url("../aseets/img/fondoVariedad.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    grid-template-areas: "title";
 }
 .modal_variedad .modal_item{
    text-align: center;
@@ -186,10 +189,28 @@ body{
    display: flex;
    justify-content: center;
 
+
 }
 .btn-buho{
-    background-color: #58c592fd;
+    background-color: #f0ce0ffd;
+    color: rgb(24, 2, 2);
+    font-size: 18px;
 }
+.btn-buho:hover{
+    font-size: 18px;
+    background-color: #282c2afd;
+    color: white;
+}
+.modal_title h1{
+    font-family: 'Young Serif', serif;
+    font-size: clamp(3.7em, 4vw, 3rem);
+    padding-left: .5rem; 
+    text-align: center;
+    color: #f0ce0ffd;
+    margin-top: 2rem;
+   
+}
+
 
 
 /*--------- Footer----------- */
