@@ -163,6 +163,33 @@ body{
     color: #615050;
     margin-top: 2rem;
 }
+/* Modal Variedad */
+.modal_variedad{
+    display: grid;
+    min-height: 100vh;
+    width: 100%;
+    margin: auto;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    align-items: center;
+    gap: 10px;
+    background-image: url("../aseets/img/tresbirras.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.modal_variedad .modal_item{
+   text-align: center;
+   
+}
+.modal_resenia{
+   display: flex;
+   justify-content: center;
+
+}
+.btn-buho{
+    background-color: #58c592fd;
+}
 
 
 /*--------- Footer----------- */
