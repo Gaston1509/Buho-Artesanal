@@ -19,7 +19,8 @@ body{
 .bg-buho{
     /* background-color: #58c592fd; */
     /* background-color: #00c853;  verde mas oscuro*/
-    background-color: #ffeb3b;
+    /* background-color: #ffeb3b; amarillo */
+    background-color: #ffc600;
 }
 .navbar-collapse{
     width: 100%;
@@ -228,7 +229,7 @@ body{
 
 }
 .btn-buho{
-    background-color: #f0ce0ffd;
+    background-color: #ffc600;
     color: rgb(24, 2, 2);
     font-size: 18px;
 }
@@ -251,7 +252,8 @@ body{
 
 /*--------- Footer----------- */
 .container-footer {
-    background-color: #ffeb3b;
+    background-color: #ffc600;
+    /* background-color: #ffeb3b;  amarillo*/
     /* background-color: #58c592fd;  verde original*/
     height: 70px;
     justify-content: center;
