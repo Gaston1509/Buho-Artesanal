@@ -191,7 +191,6 @@ body{
 .item__viajero{
     font-family: 'Young Serif', serif;
     font-size: clamp(2em, 4vw, 4rem);
-    /* padding-top: clamp(3em, 5vw, 9em); */
     padding-left: .5rem; 
     text-align: center;
     color: #615050;
@@ -246,9 +245,9 @@ body{
 /*------- Contacto Principal-------- */
 .contact{
     display: grid;
-    height: 100vh;
+    justify-content: center;
+    min-height: 100vh;
     width: 90%;
-    /* max-width: 1400px; */
     grid-template-rows: auto;
     grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
     justify-content: center;
@@ -340,5 +339,16 @@ p .map{
     }
     .galeria-grid{
         gap: 1rem;
+    }
+    /* salto de titulo de contacto */
+    .contact .item_contact{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+     /* salto de titulo de contacto */
+    .contact .item_contact{
+        margin-top: 1rem;
     }
 }
