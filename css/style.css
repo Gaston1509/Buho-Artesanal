@@ -167,6 +167,7 @@ body{
 .galeria-grid{
     display: grid;
     width: 90%;
+    /* max-width: 1400px; */
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -175,11 +176,6 @@ body{
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     gap: 1rem;
 }
-
-/* .galeria__item{
-    margin-top: 60px;
-  
-}  */
 
 .galeria-grid .galeria__item img{
     width: 100%;    
@@ -251,20 +247,29 @@ body{
 .contact{
     display: grid;
     height: 100vh;
-    max-width: 1200px;
-    grid-template-rows:;
-    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    width: 90%;
+    /* max-width: 1400px; */
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
     justify-content: center;
-    /* align-items: center; */
     margin: auto;
     margin-top: 2rem;
     
 }
+
+.contact .h2_font{
+    font-family: 'Young Serif', serif;
+    font-size: clamp(2em, 4vw, 3rem);
+    color: #615050;
+}
+
+.contact .icon_contact{
+    font-size: clamp(2em, 4vw, 3rem);
+}
 .contact .item_contact{
-    /* margin: auto; */
     margin-top: 6rem;
-    /* margin-left: 1rem; */
     text-align: center;
+    color: #615050;
 } 
 .contact .item_contact .map{
     margin: auto;  
@@ -273,6 +278,13 @@ p .map{
     margin-top: 5rem;
     box-shadow: 11px 10px 7px 0px rgba(0,0,0,0.8);
     border-radius: 10px;   
+}
+.final{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
 }
 
 
