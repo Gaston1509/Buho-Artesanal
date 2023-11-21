@@ -15,7 +15,7 @@
 body{
     background-color: rgb(245, 245, 245);
 }
-/* ----nav bar--- */
+/* --------------nav bar-------------- */
 .bg-buho{
     /* background-color: #58c592fd; */
     /* background-color: #00c853;  verde mas oscuro*/
@@ -162,13 +162,13 @@ body{
 
 .galeria-grid{
     display: grid;
-    width: 90%;
+    width: 95%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-top: 34px;
     grid-auto-rows: auto;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
     gap: 1rem;
 }
 
