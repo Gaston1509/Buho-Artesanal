@@ -273,6 +273,7 @@ body{
 .contact_p{
     font-size: clamp(0.5em, 1vw, 3rem);
     text-align: center;
+    color: #615050;
 }
 p .map{
     margin: auto;
@@ -283,7 +284,14 @@ p .map{
 }
 .icon_contact{
     font-size: 2rem;
+    color: #615050;
 }
+
+.contact_p .icon_contact{
+    color: #615050;
+}
+
+
 .final{
     display: grid;
     width: 95%;
