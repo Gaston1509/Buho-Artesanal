@@ -307,6 +307,22 @@ p .map{
     text-align: center;
 }
 
+/*----------- GM-Code---------------- */
+.gm_code{
+    font-size: 12px;
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    margin-top: 20px; 
+    
+}
+.gm_code p{
+    margin-bottom: 0;
+    
+}
+.code_1{
+    font-style: italic;
+}
 
 /*--------- Footer----------- */
 .container-footer {
