@@ -1,203 +1,342 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!------------------- bootstrap ----------->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!------------------- bootstrap ----------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <!------------ Bootsrap ------------>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <!------------- css ----------------->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <!------------ font ----------->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/style.css">
-  <title>Búho Artesanal- Variedades</title>
-</head>
-<body>
-      <!-------------- Nav Header ------------------>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-buho fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html"><!--Búho Artesanal--->
-          <img src="../aseets/img/logo_1.png" alt="Logo Buho Artesanal" class="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/variedades.html">Variedades</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/galeria.html">Galeria</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!------------- css ----------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!------------ font ----------->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Búho Artesanal- Variedades</title>
+  </head>
+  <body>
+    <!-------------- Nav Header ------------------>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-buho fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><!--Búho Artesanal--->
+            <img
+              src="../aseets/img/logoNuevo.png"
+              alt="Logo Buho Artesanal"
+              class="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/variedades.html"
+                  >Variedades</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
-  <!---------- Modal Variedades ------------->
- 
-   <main class="modal_variedad mt-5 container-fluid">
-    <!-- <div class="modal_title mb-5">
+      </nav>
+    </header>
+    <!---------- Modal Variedades ------------->
+
+    <main class="modal_variedad mt-5 container-fluid">
+      <!-- <div class="modal_title mb-5">
     <div class="modal_item mt-5">
       <h1 class="modal_h1">Variedades</h1>
     </div>
    </div> -->
-   <div class="modal_item container-fluid  mt-5">
-    <p>
-        <button class="btn btn-buho" style="width: 160px"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample8" aria-expanded="false" aria-controls="collapseWidthExample8">
-       VARIEDADES
-     </button>
-   </p>
-   <div class="modal_resenia"  style="min-height: 120px; padding-left: 16px;">
-     <div class="collapse collapse-horizontal" id="collapseWidthExample8">
-       <div class="card card-body" style="width: 300px;">
-         <!-- Te invitamos a conocer nuestra selecta colección de variedades de cervezas, las cuales son de producción meramente artesanal. -->
-         La cerveza artesanal que produce nuestra familia es un verdadero tesoro de variedades. Cada botella es el resultado  de pasión y dedicación, y cada variedad es como una página en el libro de nuestra historia cervecera. Nuestras creaciones son una celebración.
+      <div class="modal_item container-fluid mt-5">
+        <p>
+          <button
+            class="btn btn-buho"
+            style="width: 160px"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseWidthExample8"
+            aria-expanded="false"
+            aria-controls="collapseWidthExample8"
+          >
+            VARIEDADES
+          </button>
+        </p>
+        <div
+          class="modal_resenia"
+          style="min-height: 120px; padding-left: 16px"
+        >
+          <div class="collapse collapse-horizontal" id="collapseWidthExample8">
+            <div class="card card-body" style="width: 300px">
+              <!-- Te invitamos a conocer nuestra selecta colección de variedades de cervezas, las cuales son de producción meramente artesanal. -->
+              La cerveza artesanal que produce nuestra familia es un verdadero
+              tesoro de variedades. Cada botella es el resultado de pasión y
+              dedicación, y cada variedad es como una página en el libro de
+              nuestra historia cervecera. Nuestras creaciones son una
+              celebración.
+            </div>
+          </div>
         </div>
       </div>
-</div>
-</div>
-    <!-- Kolsch -->
-    <div class="modal_item container-fluid  mt-5">
-       <p>
-           <button class="btn btn-buho" style="width: 160px"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-          Kolsch
-        </button>
-      </p>
-      <div class="modal_resenia"  style="min-height: 120px; padding-left: 16px;">
-        <div class="collapse collapse-horizontal" id="collapseWidthExample">
-          <div class="card card-body" style="width: 300px;">
-            La Kölsch es una especialidad local de cerveza elaborada en Colonia (Alemania). Es una cerveza clara, su tonalidad es amarilla brillante y tiene un gusto prominente, pero no extremo de lúpulo. Comparada a la cerveza "estándar" alemana, Pils, es menos amarga.
+      <!-- Kolsch -->
+      <div class="modal_item container-fluid mt-5">
+        <p>
+          <button
+            class="btn btn-buho"
+            style="width: 160px"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseWidthExample"
+            aria-expanded="false"
+            aria-controls="collapseWidthExample"
+          >
+            Kolsch
+          </button>
+        </p>
+        <div
+          class="modal_resenia"
+          style="min-height: 120px; padding-left: 16px"
+        >
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px">
+              La Kölsch es una especialidad local de cerveza elaborada en
+              Colonia (Alemania). Es una cerveza clara, su tonalidad es amarilla
+              brillante y tiene un gusto prominente, pero no extremo de lúpulo.
+              Comparada a la cerveza "estándar" alemana, Pils, es menos amarga.
+            </div>
+          </div>
         </div>
-    </div>
-</div>
-</div>
-<!-- Irish Red -->
-<div class="modal_item container-fluid  mt-5">
-    <p>
-        <button class="btn btn-buho" style="width: 160px"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample2">
-        Irish Red
-     </button>
-   </p>
-   <div class="modal_resenia" style="min-height: 120px;">
-     <div class="collapse collapse-horizontal" id="collapseWidthExample2">
-       <div class="card card-body" style="width: 300px;">
-        De color cobre profundo, medianamente turbia, con espuma densa y cremosa. En nariz se aprecian aromas a caramelo con suaves notas a lúpulo. En boca se denota un leve dulzor y sabor a granos tostados. Equilibrada de cuerpo mediano y compleja.
-     </div>
- </div> 
-</div>
-</div>
-<!-- Golden -->
-<div class="modal_item container-fluid  mt-5">
-    <p class="">
-        <button class="btn btn-buho" style="width: 160px"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample3">
+      </div>
+      <!-- Irish Red -->
+      <div class="modal_item container-fluid mt-5">
+        <p>
+          <button
+            class="btn btn-buho"
+            style="width: 160px"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseWidthExample2"
+            aria-expanded="false"
+            aria-controls="collapseWidthExample2"
+          >
+            Irish Red
+          </button>
+        </p>
+        <div class="modal_resenia" style="min-height: 120px">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+            <div class="card card-body" style="width: 300px">
+              De color cobre profundo, medianamente turbia, con espuma densa y
+              cremosa. En nariz se aprecian aromas a caramelo con suaves notas a
+              lúpulo. En boca se denota un leve dulzor y sabor a granos
+              tostados. Equilibrada de cuerpo mediano y compleja.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Golden -->
+      <div class="modal_item container-fluid mt-5">
+        <p class="">
+          <button
+            class="btn btn-buho"
+            style="width: 160px"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseWidthExample3"
+            aria-expanded="false"
+            aria-controls="collapseWidthExample3"
+          >
             Golden
-     </button>
-     <p class="">
-   <div class="modal_resenia" style="min-height: 120px;">
-     <div class="collapse collapse-horizontal" id="collapseWidthExample3">
-       <div class="card card-body" style="width: 300px;">
-        Tiene un agradable color dorado, amargor liviano, carbonatación media-alta, un suave sabor a cereal hace el soporte dulce para la combinación de lúpulos alemanes y americanos que entregan frescas notas cítricas y florales, cuerpo medio y agradable espuma. 
-     </div>
- </div>
-</div>
-</div>
-<!-- Dorada Pampeana -->
-<div class="modal_item container-fluid  mt-5">
-    <p>
-        <button class="btn btn-buho" style="width: 160px"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample4" aria-expanded="false" aria-controls="collapseWidthExample4">
-            Pampeada
-     </button>
-   </p>
-   <div class="modal_resenia"  style="min-height: 120px;">
-     <div class="collapse collapse-horizontal" id="collapseWidthExample4">
-       <div class="card card-body" style="width: 300px;">
-        En sabores predomina el dulzor maltoso inicialmente suave. Típicamente ausentes los sabores a caramelo. El sabor a lúpulo es ligero a moderado (usualmente Cascade), pero no debería ser agresivo. El amargor del lúpulo es de bajo a moderado.
- </div>
-</div>
-</div>
-</div>
-<!-- Scotich -->
-<div class="modal_item container-fluid  mt-5">
-    <p>
-        <button class="btn btn-buho" style="width: 160px" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample5" aria-expanded="false" aria-controls="collapseWidthExample5">
-            Scotich
-        </button>
-   </p>
-   <div class="modal_resenia"  style="min-height: 120px;">
-     <div class="collapse collapse-horizontal" id="collapseWidthExample5">
-       <div class="card card-body" style="width: 300px;">
-        Se caracteriza por un pronunciado carácter malteado, amargor leve y una terminación ligeramente dulce, contenido alcohólico medio, buen cuerpo y excelente sabor. 
-        Nivel de color: 14 SRM aprox. Malta Pale Ale, Malta Amber, Malta Caramelo 55, Cebada Tostada, Avena.
-     </div>
- </div>
-</div>
-</div>
-<!-- Ipa -->
-<div class="modal_item container-fluid  mt-5">
-    <p>
-        <button class="btn btn-buho" style="width: 160px" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample6" aria-expanded="false" aria-controls="collapseWidthExample6">
-            Ipa
-        </button>
-   </p>
-   <div class="modal_resenia"  style="min-height: 120px;">
-     <div class="collapse collapse-horizontal" id="collapseWidthExample6">
-       <div class="card card-body" style="width: 300px;">
-        Las IPA se caracterizan por ser cervezas de alta graduación alcohólica (entre 5º y 7º), tener una mayor cantidad de lúpulo y por lo tanto un amargor (a partir normalmente de los 40 IBUs) y aroma intensos y cierta complejidad en el paladar.
- </div>
-</div>
-</div>
-</div>
-<!-- Apa -->
-<div class="modal_item container-fluid  mt-5">
-    <p>
-        <button class="btn btn-buho" style="width: 160px" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample7" aria-expanded="false" aria-controls="collapseWidthExample7"> 
-            Apa
-        </button>
-   </p>
-   <div class="modal_resenia"  style="min-height: 120px;">
-     <div class="collapse collapse-horizontal" id="collapseWidthExample7">
-       <div class="card card-body" style="width: 300px;">
-        Una cerveza americana moderna adaptada de las Ales Pálidas Inglesas. Una Ale de color dorado pálido a ámbar ligero, refrescante y lupulada, todavía con suficiente soporte de malta para hacer la cerveza balanceada y bebible.       
- </div>
-</div>
-</div>
-</div>
-</main>
-   <!----------- Footer ------------->
-   <footer class="container-fluid mt-">
-    <div class="row pie">
-      <div class="container-footer col-sm-12 col-md-12 col-lg-6 d-flex"><a href="">copyright&copy</a>
+          </button>
+        </p>
+
+        <p class=""></p>
+        <div class="modal_resenia" style="min-height: 120px">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+            <div class="card card-body" style="width: 300px">
+              Tiene un agradable color dorado, amargor liviano, carbonatación
+              media-alta, un suave sabor a cereal hace el soporte dulce para la
+              combinación de lúpulos alemanes y americanos que entregan frescas
+              notas cítricas y florales, cuerpo medio y agradable espuma.
+            </div>
+          </div>
+        </div>
       </div>
-    <div class="container-footer icons col-sm-12 col-md-12 col-lg-6 d-flex">
-      <a href="https://wa.me/5491131709548?text=Me contácto desde la web BúhoCervezaArtesanal" target="_blank"><i class="bi bi-whatsapp px-1"></i></a>
-      <a href="https://instagram.com/buhoartesanal?igshid=MzMyNGUyNmU2YQ==" target="_blank"><i class="bi bi-instagram px-1"></i></a>
-      <a href="https://www.facebook.com/BuhoCervezaArtesanal" target="_blank"><i class="bi bi-facebook px-1"></i></a>
-    </div>
-  </div>
-  </footer>
-  <!-- Script Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-</body>
+      <!-- Dorada Pampeana -->
+      <div class="modal_item container-fluid mt-5">
+        <p>
+          <button
+            class="btn btn-buho"
+            style="width: 160px"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseWidthExample4"
+            aria-expanded="false"
+            aria-controls="collapseWidthExample4"
+          >
+            Pampeada
+          </button>
+        </p>
+        <div class="modal_resenia" style="min-height: 120px">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample4">
+            <div class="card card-body" style="width: 300px">
+              En sabores predomina el dulzor maltoso inicialmente suave.
+              Típicamente ausentes los sabores a caramelo. El sabor a lúpulo es
+              ligero a moderado (usualmente Cascade), pero no debería ser
+              agresivo. El amargor del lúpulo es de bajo a moderado.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Scotich -->
+      <div class="modal_item container-fluid mt-5">
+        <p>
+          <button
+            class="btn btn-buho"
+            style="width: 160px"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseWidthExample5"
+            aria-expanded="false"
+            aria-controls="collapseWidthExample5"
+          >
+            Scotich
+          </button>
+        </p>
+        <div class="modal_resenia" style="min-height: 120px">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample5">
+            <div class="card card-body" style="width: 300px">
+              Se caracteriza por un pronunciado carácter malteado, amargor leve
+              y una terminación ligeramente dulce, contenido alcohólico medio,
+              buen cuerpo y excelente sabor. Nivel de color: 14 SRM aprox. Malta
+              Pale Ale, Malta Amber, Malta Caramelo 55, Cebada Tostada, Avena.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Ipa -->
+      <div class="modal_item container-fluid mt-5">
+        <p>
+          <button
+            class="btn btn-buho"
+            style="width: 160px"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseWidthExample6"
+            aria-expanded="false"
+            aria-controls="collapseWidthExample6"
+          >
+            Ipa
+          </button>
+        </p>
+        <div class="modal_resenia" style="min-height: 120px">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample6">
+            <div class="card card-body" style="width: 300px">
+              Las IPA se caracterizan por ser cervezas de alta graduación
+              alcohólica (entre 5º y 7º), tener una mayor cantidad de lúpulo y
+              por lo tanto un amargor (a partir normalmente de los 40 IBUs) y
+              aroma intensos y cierta complejidad en el paladar.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Apa -->
+      <div class="modal_item container-fluid mt-5">
+        <p>
+          <button
+            class="btn btn-buho"
+            style="width: 160px"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseWidthExample7"
+            aria-expanded="false"
+            aria-controls="collapseWidthExample7"
+          >
+            Apa
+          </button>
+        </p>
+        <div class="modal_resenia" style="min-height: 120px">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample7">
+            <div class="card card-body" style="width: 300px">
+              Una cerveza americana moderna adaptada de las Ales Pálidas
+              Inglesas. Una Ale de color dorado pálido a ámbar ligero,
+              refrescante y lupulada, todavía con suficiente soporte de malta
+              para hacer la cerveza balanceada y bebible.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!----------- Footer ------------->
+    <footer class="container-fluid mt-">
+      <div class="row pie">
+        <div class="container-footer col-sm-12 col-md-12 col-lg-6 d-flex">
+          <a href="">copyright&copy</a>
+        </div>
+        <div class="container-footer icons col-sm-12 col-md-12 col-lg-6 d-flex">
+          <a
+            href="https://wa.me/5491131709548?text=Me contácto desde la web BúhoCervezaArtesanal"
+            target="_blank"
+            ><i class="bi bi-whatsapp px-1"></i
+          ></a>
+          <a
+            href="https://instagram.com/buhoartesanal?igshid=MzMyNGUyNmU2YQ=="
+            target="_blank"
+            ><i class="bi bi-instagram px-1"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/BuhoCervezaArtesanal"
+            target="_blank"
+            ><i class="bi bi-facebook px-1"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!-- Script Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
